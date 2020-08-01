@@ -1,0 +1,40 @@
+{
+  "name": "classeviva-lite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "",
+    "build:webpack": "webpack --mode development",
+    "build:webpack:prod": "webpack --mode production",
+    "serve:webpack": "webpack-dev-server --open",
+    "serve:firebase": "firebase serve --only hosting",
+    "deliver:firebase": "firebase deploy --only hosting",
+    "lint:eslint": "eslint src/**/*.ts --resolve-plugins-relative-to ."
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/webpack": "^4.41.21",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "css-loader": "^4.1.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-import-resolver-webpack": "^0.12.2",
+    "eslint-plugin-import": "^2.22.0",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@alex-sandri/pizza-utilities": "^1.0.2"
+  }
+}

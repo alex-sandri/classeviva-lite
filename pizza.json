@@ -1,0 +1,23 @@
+{
+    "bundler": {
+        "name": "webpack"
+    },
+    "linter": {
+        "name": "eslint"
+    },
+    "server": {
+        "name": "webpack"
+    },
+    "hostingProvider": {
+        "name": "unset"
+    },
+    "options": {
+        "serviceWorker": {
+            "assets": {
+                "static": [
+                    "/offline.html"
+                ]
+            }
+        }
+    }
+}

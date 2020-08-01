@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> defaultHeadTags}}
+    {{#each assets.css}}
+    <link rel="stylesheet" href="/assets/css/{{this}}">
+    {{/each}}
+    <title>Pizza App</title>
+</head>
+<body>
+    <img src="/assets/img/pizza.svg" alt="Pizza">
+    {{#each assets.js}}
+    <script src="/assets/js/{{this}}"></script>
+    {{/each}}
+</body>
+</html>
