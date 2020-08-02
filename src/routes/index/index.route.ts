@@ -14,5 +14,17 @@ signInForm.addEventListener("submit", async e =>
 {
     e.preventDefault();
 
-    await ClasseViva.createSession(uidInput.value, pwdInput.value);
+    ClasseViva
+        .createSession(uidInput.value, pwdInput.value)
+        .then(() =>
+        {
+            // TODO
+        })
+        .catch((errors: string[]) =>
+        {
+            errors.forEach(error =>
+            {
+                console.log(error);
+            });
+        });
 });
