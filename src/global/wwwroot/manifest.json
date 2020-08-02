@@ -1,8 +1,8 @@
 {
-    "name": "Pizza App",
-    "short_name": "Pizza App",
-    "theme_color": "#ff0000",
-    "background_color": "#ff0000",
+    "name": "ClasseViva Lite",
+    "short_name": "ClasseViva",
+    "theme_color": "#cc1020",
+    "background_color": "#cc1020",
     "display": "standalone",
     "start_url": "/?utm_source=homescreen",
     "scope": "/",
