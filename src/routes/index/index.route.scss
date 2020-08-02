@@ -4,6 +4,7 @@ body
 {
     display: grid;
     place-items: center;
+    grid-template-rows: $header-height auto;
     background-color: $primary-color;
 
     form

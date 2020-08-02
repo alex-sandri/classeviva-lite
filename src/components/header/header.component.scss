@@ -1,0 +1,17 @@
+@import "../../global/scss/variables.scss";
+
+header
+{
+    display: flex;
+    align-items: center;
+    height: $header-height;
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding: $default-spacing;
+    width: 100%;
+
+    h1
+    {
+        margin: 0;
+    }
+}
