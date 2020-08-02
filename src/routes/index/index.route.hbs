@@ -8,6 +8,17 @@
     <title>ClasseViva Lite</title>
 </head>
 <body>
+    <form>
+        <label for="uid">
+            Codice personale / Email / Badge
+            <input type="text" id="uid">
+        </label>
+        <label for="pwd">
+            Password
+            <input type="password" id="pwd">
+        </label>
+        <button type="submit">Conferma</button>
+    </form>
     {{#each assets.js}}
     <script src="/assets/js/{{this}}"></script>
     {{/each}}
